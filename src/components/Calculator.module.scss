@@ -1,0 +1,61 @@
+.wrapper {
+  margin: 50px auto;
+  width: 200px;
+
+  .display {
+    height: 50px;
+    display: flex;
+    flex-flow: column;
+    background: transparent;
+
+    .sum {
+      margin-bottom: 3px;
+      font-weight: 900;
+      font-size: 20px;
+    }
+
+    .calculate {
+      text-align: right;
+      font-size: 20px;
+    }
+  }
+
+  .buttons {
+    display: flex;
+    flex-wrap: wrap;
+
+    .ops {
+      margin: 0 auto;
+
+      button {
+        background: rgba(54, 205, 255, .4);
+        border: none;
+        width: 40px;
+        height: 40px;
+        transition: ease-in-out 0.1s;
+
+        &:hover {
+          background: rgb(54, 205, 255);
+        }
+      }
+    }
+
+    .digits {
+      margin: 0 auto;
+      button {
+        border: none;
+        width: 66.6px;
+        height: 50px;
+        transition: ease-in-out 0.1s;
+
+        &:hover {
+          background: rgba(54, 205, 255, .4);
+        }
+      }
+    }
+  }
+
+  button {
+    cursor: pointer;
+  }
+}

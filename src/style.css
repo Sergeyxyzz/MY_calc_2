@@ -1,0 +1,5 @@
+html {
+  background: radial-gradient(at top, #feffff, #a7cecc) repeat;
+  height: 100%;
+  overflow: hidden;
+}
